@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoT Wisdoms</title>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Game of Thrones Wisdom</h1>
+        <div class="quote-card">
+            <p class="quote-text" id="quote">Loading quote...</p>
+            <div class="author-info">
+                <img src="" alt="Author Image" class="author-image" id="authorImage">
+                <div class="author-details">
+                    <div id="authorName">Unknown</div>
+                    <div class="house-name" id="houseName"></div>
+                </div>
+            </div>
+        </div>
+        <div id="buttons">
+            <div class="social-buttons">
+                <a href="#" class="social-btn twitter" id="twitterBtn" target="_blank">
+                    <i class="fab fa-twitter social-icon"></i>
+                </a>
+                <a href="#" class="social-btn linkedin" id="linkedinBtn" target="_blank">
+                    <i class="fab fa-linkedin-in social-icon"></i>
+                </a>
+            </div>
+            <button class="new-quote-btn" onclick="generateNewQuote()">Get New Quote</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
